@@ -1,0 +1,8 @@
+path_section_right_csv: /nfs/team283_imaging/playground_Stas/Embryo/0424_flatten_map_new/wEMBsp13458120/out_sections/section1_straight_pos.csv
+path_section_left_csv: /nfs/team283_imaging/playground_Stas/Embryo/0424_flatten_map_new/wEMBsp13458120/out_sections/section2_straight_pos.csv
+flip_x_left: True
+flip_y_left: False
+center_search_shift: 7500
+range_search_shift: 300
+path_output: /nfs/team283_imaging/playground_Stas/Embryo/0424_flatten_map_new/wEMBsp13458120/out_sections/sections_1_2_merged.csv
+save_image: True
