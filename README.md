@@ -30,3 +30,7 @@ When you straighten first two segments with as in **Step 2**, you will need to s
 
 # General procedure
 For one CNS tube you have to start with **Step 1**, and then sequentially perform **Step 2** with **Step 3**: which means truing new segment, and stitch it to all previously truined and merged segments. You have to check performance of the code at each step and correct parameters in configuration files. I think in average I re-run truing curve code for the same segmen 5-10 times with different parameteres before I become fully satisfied with the results
+
+# TODO
+1) Add environment file
+2) Structural code change - can we do it all at once, without breaking it to segments?
