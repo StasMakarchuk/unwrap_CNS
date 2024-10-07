@@ -12,12 +12,12 @@ Run curve truing for only a segment of CNS. for this chose segment that will be 
  - *xlim*, *ylim*: limits for the segment of the CNS. if the tube segment is complex and cant be simply fitted in rectangular, you can take larger rectangular and then crop out small rectangulars in *subcrop_x*, *subcrop_y*
  - *pos_a*, *pos_b*: approximate initial positions of outline spots to start outline determination
  - *vector_a*, *vector_b*: initial vectors drawn from *pos_a*, *pos_b* to determine outline of the CNS
- - out_folder: output folder
- - rotate_90: whether or not rotate on 90 degrees whole segment
- - shorten_median_prc: on how much (in %) shorten the median determination (from the outline determination), as closer to the end there's more probability of wrong median determination. Check computed median from output images and check if it well represents center of the tube
- - method: can be "default" or "skeleton". This is the method of median determination (this is the most complicated part of the code). I usually use default, skeleton give often many branches
- - rotate_angle: custom rotational angle for whoel curve to make it looks like **U** or inverted **U**
- - rotate_c_point: only if rotation angle is not 0, then I use center of selected region (*xlim*, *ylim*)
+ - *out_folder*: output folder
+ - *rotate_90*: whether or not rotate on 90 degrees whole segment
+ - *shorten_median_prc*: on how much (in %) shorten the median determination (from the outline determination), as closer to the end there's more probability of wrong median determination. Check computed median from output images and check if it well represents center of the tube
+ - *method*: can be "default" or "skeleton". This is the method of median determination (this is the most complicated part of the code). I usually use default, skeleton give often many branches
+ - *rotate_angle*: custom rotational angle for whoel curve to make it looks like **U** or inverted **U**
+ - *rotate_c_point*: only if rotation angle is not 0, then I use center of selected region (*xlim*, *ylim*)
 As output it produces 2 images (curve_plot and fit plot), where I usually check quality of: median building, and fitting this median to a polyfit curve
 
 ## Step 3
